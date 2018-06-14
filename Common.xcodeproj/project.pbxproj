@@ -21,7 +21,7 @@
 		E73972FE20D2441C007BB68D /* UINavigationController+StatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972FC20D2441C007BB68D /* UINavigationController+StatusBarStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E73972FF20D2441C007BB68D /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972FD20D2441C007BB68D /* UINavigationController+StatusBarStyle.m */; };
 		E739730120D24427007BB68D /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = E739730020D24427007BB68D /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E739735120D24732007BB68D /* Common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E739735020D24732007BB68D /* Common.bundle */; };
+		E7B83E4320D25522006BF90C /* Common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7B83E4220D25522006BF90C /* Common.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,8 @@
 		E73972FC20D2441C007BB68D /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
 		E73972FD20D2441C007BB68D /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
 		E739730020D24427007BB68D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		E739735020D24732007BB68D /* Common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Common.bundle; sourceTree = SOURCE_ROOT; };
 		E739736320D248C8007BB68D /* CommonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonDemo.xcodeproj; path = CommonDemo/CommonDemo.xcodeproj; sourceTree = "<group>"; };
+		E7B83E4220D25522006BF90C /* Common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Common.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		E73972CD20D242D4007BB68D /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E739735020D24732007BB68D /* Common.bundle */,
+				E7B83E4220D25522006BF90C /* Common.bundle */,
 				E73972E720D24398007BB68D /* Categories */,
 				E73972E620D24393007BB68D /* Utils */,
 				E73972E520D2436B007BB68D /* BaseClasses */,
@@ -345,7 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E739735120D24732007BB68D /* Common.bundle in Resources */,
+				E7B83E4320D25522006BF90C /* Common.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
