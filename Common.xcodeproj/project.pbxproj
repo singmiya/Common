@@ -10,6 +10,18 @@
 		E73972D520D242D4007BB68D /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73972CB20D242D4007BB68D /* Common.framework */; };
 		E73972DA20D242D4007BB68D /* CommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972D920D242D4007BB68D /* CommonTests.m */; };
 		E73972DC20D242D4007BB68D /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972CE20D242D4007BB68D /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972F020D243D7007BB68D /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972EA20D243D6007BB68D /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972F120D243D7007BB68D /* BaseNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972EB20D243D6007BB68D /* BaseNaviController.m */; };
+		E73972F220D243D7007BB68D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972EC20D243D6007BB68D /* BaseViewController.m */; };
+		E73972F320D243D7007BB68D /* BaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972ED20D243D6007BB68D /* BaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972F420D243D7007BB68D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972EE20D243D6007BB68D /* BaseTableViewController.m */; };
+		E73972F520D243D7007BB68D /* BaseNaviController.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972EF20D243D6007BB68D /* BaseNaviController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972F920D2440A007BB68D /* UIImage+GenerateImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972F720D2440A007BB68D /* UIImage+GenerateImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972FA20D2440A007BB68D /* UIImage+GenerateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972F820D2440A007BB68D /* UIImage+GenerateImage.m */; };
+		E73972FE20D2441C007BB68D /* UINavigationController+StatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E73972FC20D2441C007BB68D /* UINavigationController+StatusBarStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73972FF20D2441C007BB68D /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E73972FD20D2441C007BB68D /* UINavigationController+StatusBarStyle.m */; };
+		E739730120D24427007BB68D /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = E739730020D24427007BB68D /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E739735120D24732007BB68D /* Common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E739735020D24732007BB68D /* Common.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +32,27 @@
 			remoteGlobalIDString = E73972CA20D242D4007BB68D;
 			remoteInfo = Common;
 		};
+		E739736920D248C9007BB68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E739736320D248C8007BB68D /* CommonDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E739730B20D2446C007BB68D;
+			remoteInfo = CommonDemo;
+		};
+		E739736B20D248C9007BB68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E739736320D248C8007BB68D /* CommonDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E739732320D2446D007BB68D;
+			remoteInfo = CommonDemoTests;
+		};
+		E739736D20D248C9007BB68D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E739736320D248C8007BB68D /* CommonDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E739732E20D2446D007BB68D;
+			remoteInfo = CommonDemoUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +62,19 @@
 		E73972D420D242D4007BB68D /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73972D920D242D4007BB68D /* CommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTests.m; sourceTree = "<group>"; };
 		E73972DB20D242D4007BB68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73972EA20D243D6007BB68D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E73972EB20D243D6007BB68D /* BaseNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNaviController.m; sourceTree = "<group>"; };
+		E73972EC20D243D6007BB68D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E73972ED20D243D6007BB68D /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		E73972EE20D243D6007BB68D /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		E73972EF20D243D6007BB68D /* BaseNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNaviController.h; sourceTree = "<group>"; };
+		E73972F720D2440A007BB68D /* UIImage+GenerateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GenerateImage.h"; sourceTree = "<group>"; };
+		E73972F820D2440A007BB68D /* UIImage+GenerateImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GenerateImage.m"; sourceTree = "<group>"; };
+		E73972FC20D2441C007BB68D /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		E73972FD20D2441C007BB68D /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
+		E739730020D24427007BB68D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E739735020D24732007BB68D /* Common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Common.bundle; sourceTree = SOURCE_ROOT; };
+		E739736320D248C8007BB68D /* CommonDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonDemo.xcodeproj; path = CommonDemo/CommonDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,7 @@
 		E73972C120D242D4007BB68D = {
 			isa = PBXGroup;
 			children = (
+				E739736220D248B1007BB68D /* Examples */,
 				E73972CD20D242D4007BB68D /* Common */,
 				E73972D820D242D4007BB68D /* CommonTests */,
 				E73972CC20D242D4007BB68D /* Products */,
@@ -71,6 +118,10 @@
 		E73972CD20D242D4007BB68D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E739735020D24732007BB68D /* Common.bundle */,
+				E73972E720D24398007BB68D /* Categories */,
+				E73972E620D24393007BB68D /* Utils */,
+				E73972E520D2436B007BB68D /* BaseClasses */,
 				E73972CE20D242D4007BB68D /* Common.h */,
 				E73972CF20D242D4007BB68D /* Info.plist */,
 			);
@@ -86,6 +137,88 @@
 			path = CommonTests;
 			sourceTree = "<group>";
 		};
+		E73972E520D2436B007BB68D /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E73972E920D243BF007BB68D /* Views */,
+				E73972E820D243B3007BB68D /* Controllers */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		E73972E620D24393007BB68D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E739730020D24427007BB68D /* Constants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E73972E720D24398007BB68D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E73972FB20D2440E007BB68D /* UINavigationController */,
+				E73972F620D243FE007BB68D /* UIImage */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E73972E820D243B3007BB68D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E73972EF20D243D6007BB68D /* BaseNaviController.h */,
+				E73972EB20D243D6007BB68D /* BaseNaviController.m */,
+				E73972ED20D243D6007BB68D /* BaseTableViewController.h */,
+				E73972EE20D243D6007BB68D /* BaseTableViewController.m */,
+				E73972EA20D243D6007BB68D /* BaseViewController.h */,
+				E73972EC20D243D6007BB68D /* BaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E73972E920D243BF007BB68D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E73972F620D243FE007BB68D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				E73972F720D2440A007BB68D /* UIImage+GenerateImage.h */,
+				E73972F820D2440A007BB68D /* UIImage+GenerateImage.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		E73972FB20D2440E007BB68D /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E73972FC20D2441C007BB68D /* UINavigationController+StatusBarStyle.h */,
+				E73972FD20D2441C007BB68D /* UINavigationController+StatusBarStyle.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		E739736220D248B1007BB68D /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				E739736320D248C8007BB68D /* CommonDemo.xcodeproj */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		E739736420D248C8007BB68D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E739736A20D248C9007BB68D /* CommonDemo.app */,
+				E739736C20D248C9007BB68D /* CommonDemoTests.xctest */,
+				E739736E20D248C9007BB68D /* CommonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +226,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73972FE20D2441C007BB68D /* UINavigationController+StatusBarStyle.h in Headers */,
 				E73972DC20D242D4007BB68D /* Common.h in Headers */,
+				E73972F020D243D7007BB68D /* BaseViewController.h in Headers */,
+				E73972F920D2440A007BB68D /* UIImage+GenerateImage.h in Headers */,
+				E73972F320D243D7007BB68D /* BaseTableViewController.h in Headers */,
+				E73972F520D243D7007BB68D /* BaseNaviController.h in Headers */,
+				E739730120D24427007BB68D /* Constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +302,12 @@
 			mainGroup = E73972C120D242D4007BB68D;
 			productRefGroup = E73972CC20D242D4007BB68D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E739736420D248C8007BB68D /* Products */;
+					ProjectRef = E739736320D248C8007BB68D /* CommonDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E73972CA20D242D4007BB68D /* Common */,
@@ -171,11 +316,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E739736A20D248C9007BB68D /* CommonDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CommonDemo.app;
+			remoteRef = E739736920D248C9007BB68D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E739736C20D248C9007BB68D /* CommonDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonDemoTests.xctest;
+			remoteRef = E739736B20D248C9007BB68D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E739736E20D248C9007BB68D /* CommonDemoUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonDemoUITests.xctest;
+			remoteRef = E739736D20D248C9007BB68D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E73972C920D242D4007BB68D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E739735120D24732007BB68D /* Common.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73972FA20D2440A007BB68D /* UIImage+GenerateImage.m in Sources */,
+				E73972F120D243D7007BB68D /* BaseNaviController.m in Sources */,
+				E73972F420D243D7007BB68D /* BaseTableViewController.m in Sources */,
+				E73972F220D243D7007BB68D /* BaseViewController.m in Sources */,
+				E73972FF20D2441C007BB68D /* UINavigationController+StatusBarStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +523,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sings.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -372,6 +548,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sings.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
