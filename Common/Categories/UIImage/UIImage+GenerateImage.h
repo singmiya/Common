@@ -7,4 +7,6 @@
 
 @interface UIImage (GenerateImage)
 + (UIImage *)generateImageWithColor:(UIColor *)color size:(CGSize)size;
+
++ (UIImage *)generateRandomColorImageWithSize:(CGSize)size;
 @end
